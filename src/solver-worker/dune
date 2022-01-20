@@ -1,0 +1,4 @@
+(executable
+ (name main)
+ (libraries cmdliner solver-service ocluster-worker prometheus-app.unix
+   ocluster-api))
