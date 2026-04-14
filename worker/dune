@@ -20,15 +20,15 @@
 ; This allows us to add in the run-time dependency on solver-worker in the
 ; copy step.
 
-(install
- (section bin)
- (package solver-worker)
- (files
-  (main-copy.exe as solver-worker)))
-
-(rule
- (target main-copy.exe)
- (deps
-  (package solver-service))
- (action
-  (copy main.exe main-copy.exe)))
+; (install
+;  (section bin)
+;  (package solver-worker)
+;  (files
+;   (main-copy.exe as solver-worker)))
+;
+; (rule
+;  (target main-copy.exe)
+;  (deps
+;   (package solver-service))
+;  (action
+;   (copy main.exe main-copy.exe)))
