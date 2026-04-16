@@ -6,7 +6,6 @@
     inputs.flake-utils.follows = "flake-utils";
     inputs.opam-repository.follows = "opam-repository";
   };
-  inputs.self.submodules = true;
   inputs.opam-repository = {
     url = "github:ocaml/opam-repository";
     flake = false;
