@@ -30,7 +30,7 @@
   conf-libev
   (opam-0install (>= 0.4.3))
   (git-unix (>= 3.12.0))
-  (capnp-rpc-unix (>= 1.2.3)))
+  (capnp-rpc-unix (< 2.0.0)))
  (conflicts (carton (< 0.4.2))))
 
 (package
@@ -40,7 +40,7 @@
   (ocaml (>= 4.14.1))
   (alcotest-lwt (and (>= 1.7.0) :with-test))
   (capnp (>= 3.5.0))
-  (capnp-rpc-lwt (>= 1.2.3))
+  (capnp-rpc-lwt (< 2.0.0))
   (ppx_deriving_yojson (>= 3.6.1))
   (ppx_deriving (>= 5.1))))
 
